@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			-webkit-animation-name:example;
+			-o-animation-name:example;
+			animation-name:example;
+			-webkit-animation-duration:4s;
+			-o-animation-duration:4s;
+			animation-duration:4s;
+			animation-iteration-count: infinite;
+		}
+@-webkit-keyframes example{
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	100% {background-color: green;}
+}
+@keyframes example{
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	100% {background-color: green;}
+}
+	</style>
+</head>
+<body>
+<p>Это не работает в IE 0.0 и ниже</p>	
+<div></div>
+</body>
+</html>

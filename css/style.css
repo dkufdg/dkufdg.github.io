@@ -1,0 +1,30 @@
+ <body>
+ p{ color: red; 
+ 	font-size: 32px; 
+ 	font-family: 'Balsamiq Sans', cursive; }
+
+ span{background: black; 
+ 	font-family:'Lettres ombrees ornees' }
+
+
+ @font-face	{font-family: Lettres ombrees ornees; 
+ 	src: url(fonts/20351.otf); 
+ 	font-style: normal; 
+ 	font-weight: normal;}
+
+
+ div {width: 90%;}
+
+a{
+	text-decoration: none;
+	color: tomato;
+	font-size: 20px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.heading {font-size: 48 px;
+}
+</body>
